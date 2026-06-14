@@ -1,0 +1,29 @@
+.achievements__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.achievement-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  font-weight: 500;
+  transition: all var(--transition);
+  box-shadow: var(--shadow);
+}
+
+.achievement-card:hover {
+  border-color: var(--primary);
+  transform: translateX(4px);
+}
+
+.achievement-card__icon {
+  color: var(--primary);
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}

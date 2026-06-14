@@ -1,0 +1,35 @@
+.education__card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
+}
+
+.education__icon {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.education__card h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.education__card p {
+  color: var(--text-muted);
+  line-height: 1.7;
+}
