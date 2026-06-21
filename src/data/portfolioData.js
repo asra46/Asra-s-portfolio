@@ -1,6 +1,10 @@
 import img1 from "../images/shop hub.png"
 import img2 from  "../images/Untitled design.png"
 import img3 from "../images/_travel agencey web.png"
+import img4 from "../images/multipage ecommrece website.png"
+import img5 from "../images/digital services.png"
+import img6 from "../images/movie-hub.png"
+import img7 from "../images/shoe website.png"
 
 
 
@@ -122,13 +126,46 @@ export const projects = [
       'Dark Mode',
       'Responsive Design',
     ],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://shop-hub-lovat-sigma.vercel.app/',
+    githubUrl: 'https://github.com/asra46/shopHub',
     image: img1,
     featured: true,
   },
+ {
+  id: '2',
+  title: 'MovieHub - Movie Discovery App',
+  category: 'react',
+  description:
+    'A modern movie discovery platform built with React and TMDB API. Users can browse trending movies, search for films, view detailed movie information, manage watchlists, and explore popular movies through an intuitive and responsive interface.',
+
+  technologies: [
+    'React',
+    'Vite',
+    'React Router',
+    'Context API',
+    'TMDB API',
+    'Tailwind CSS',
+  ],
+
+  features: [
+    'Trending Movies',
+    'Movie Search',
+    'Movie Details',
+    'Watchlist Management',
+    'Pagination',
+    'Responsive Design',
+    'Dark Theme UI',
+    'TMDB API Integration',
+  ],
+
+  liveUrl: 'https://ai-movie-hub.vercel.app/',
+  githubUrl: 'https://github.com/asra46/AI-Movie-Hub.git',
+
+  image: img6,
+  featured: true,
+},
   {
-    id: '2',
+    id: '3',
     title: "Expense Tracker Website",
     category: 'react',
     description:
@@ -145,7 +182,41 @@ export const projects = [
     featured: true,
   },
   {
-    id: '3',
+  id: '4',
+  title: 'AeroKicks - Sneaker E-Commerce Website',
+  category: 'web',
+
+  description:
+    'A modern and responsive sneaker e-commerce website built with React. Users can browse premium shoe collections, view product details, manage shopping carts, authenticate accounts, and enjoy a smooth shopping experience through an elegant dark-themed interface.',
+
+  technologies: [
+    'React',
+    'Vite',
+    'Bootstrap',
+    'Context API',
+    'React Router',
+    'CSS3'
+  ],
+
+  features: [
+    'Product Catalog',
+    'Product Details Page',
+    'Shopping Cart',
+    'User Authentication',
+    'Featured Collections',
+    'Responsive Design',
+    'Dark Modern UI',
+    'Interactive Animations'
+  ],
+
+  liveUrl: 'https://shoe-website-pxgk-git-main-asras-projects-c1afabaf.vercel.app/', 
+  githubUrl: 'https://github.com/asra46/shoe-website.git',
+
+  image: img7,
+  featured: true,
+},
+  {
+    id: '5',
     title: 'Traveling Agencey Website',
     category: 'web',
     description:"A simp built with React to add, update, and delete daily tasksle and interactive Todo app.",
@@ -164,11 +235,10 @@ export const projects = [
     featured: false,
   },
   {
-    id: 'jewelry',
-    title: 'Jewelry E-Commerce Website',
+    id: '6',
+    title: 'Ecommerce Website Design',
     category: 'web',
-    description:
-      'Luxury jewelry website with elegant UI, product catalog, categories, and responsive design for an premium shopping experience.',
+    description:'A multi-page ecommerce website design with product listings, categories, and modern UI layout.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
     features: [
       'Product Catalog',
@@ -176,9 +246,27 @@ export const projects = [
       'Elegant UI',
       'Mobile Responsive',
     ],
-    liveUrl: '#',
-    githubUrl: '#',
-    image: 'jewelry',
+    liveUrl: 'https://multipage-ecommerce-web.netlify.app/',
+    githubUrl: 'https://github.com/asra46/multi-page-ecommerce-website-main.git',
+    image: img4,
+    featured: false,
+  },
+  {
+    id: '7',
+    title:'Digital Services Website',
+    category: 'web',
+    description:'A professional digital services website showcasing services, features, and business information with a clean design.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+    features: [
+      'Product Catalog',
+      'Category Navigation',
+      'Elegant UI',
+      'Mobile Responsive',
+    ],
+
+    liveUrl: 'https://digital-services-web.netlify.app/',
+    githubUrl: 'https://github.com/asra46/Digital-Services-Website.git',
+    image: img5,
     featured: false,
   },
 ];
