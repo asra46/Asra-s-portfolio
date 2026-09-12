@@ -1,0 +1,129 @@
+.contact__intro {
+  text-align: center;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: -1.5rem auto 3rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.contact__item > svg {
+  color: var(--primary);
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.contact__item h4 {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact__item a {
+  color: var(--primary);
+  transition: opacity var(--transition);
+}
+
+.contact__item a:hover {
+  opacity: 0.8;
+}
+
+.contact__form {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.contact__success {
+  background: #dcfce7;
+  color: #166534;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+}
+
+[data-theme='dark'] .contact__success {
+  background: #14532d;
+  color: #86efac;
+}
+
+.contact__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+@media (max-width: 768px) {
+  .contact__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__row {
+    grid-template-columns: 1fr;
+  }
+}
