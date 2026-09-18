@@ -49,7 +49,7 @@ export default function Hero() {
   <a
     href={personalInfo.resumeUrl}
     className="btn btn--outline"
-    download="Asra-Nawaz-Resume.pdf"
+    download="Asra_Nawaz_Final-CV.pdf"
     target="_blank"
     rel="noopener noreferrer"
   >

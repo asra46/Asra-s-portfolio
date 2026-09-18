@@ -7,6 +7,9 @@ import img6 from "../images/movie-hub.png"
 import img7 from "../images/shoe website.png"
 import img8 from "../images/TaskFlow_LinkedIn_Project_Showcase (1).png"
 import img9 from "../images/ai-chatbot.png"
+import img10 from "../images/wordpress1.png"
+import img11 from "../images/wordpress2.png"
+import resumePdf from "../images/Asra_Nawaz_Final-CV.pdf"
 
 export const personalInfo = {
   name: 'Asra Nawaz',
@@ -16,7 +19,7 @@ export const personalInfo = {
   email: 'asranawaz345@email.com',
   phone: '+92 3427264031',
   location: 'Pakistan',
-  resumeUrl: '/resume/Asra-Nawaz-Resume.pdf',
+  resumeUrl: resumePdf,
   social: {
     linkedin: 'https://linkedin.com/in/asra-nawaz',
     github: 'https://github.com/asra-nawaz',
@@ -310,6 +313,53 @@ export const projects = [
   githubUrl: 'https://github.com/asra46/task-management-dashboard.git',
   image: img8,
   featured: true,
+},
+{
+id: '10',
+title: 'Global Work Digital',
+category: 'wordpress',
+description:
+'A professional digital marketing agency website built with WordPress, designed to showcase SEO, web development, digital marketing, and business growth services through a modern, responsive, and user-friendly interface.',
+technologies: ['WordPress', 'Elementor', 'Elementor Pro', 'HTML', 'CSS', 'WooCommerce', 'Responsive Design'],
+features: [
+'Professional Agency Website',
+'Responsive Design',
+'Service & Business Pages',
+'SEO-Focused Content Structure',
+'Modern UI with Elementor',
+'Custom Page Layouts',
+'Contact & Lead Generation Forms',
+'Mobile-Friendly Navigation',
+],
+
+liveUrl: 'https://globalworkdigital.com/',
+githubUrl: '',
+image: img10,
+featured: false,
+},
+
+{
+id: '11',
+title: 'AjwaMart',
+category: 'wordpress',
+description:
+'A modern e-commerce website built with WordPress and WooCommerce, designed to provide customers with an easy and responsive online shopping experience with organized product listings, product details, and a user-friendly store interface.',
+technologies: ['WordPress', 'WooCommerce', 'Elementor', 'Elementor Pro', 'HTML', 'CSS', 'Responsive Design'],
+features: [
+'E-Commerce Store',
+'Product Listing & Categories',
+'Product Detail Pages',
+'Shopping Cart',
+'WooCommerce Integration',
+'Responsive Design',
+'User-Friendly Navigation',
+'Mobile-Friendly Layout',
+],
+
+liveUrl: 'https://ajwamart.pk/',
+githubUrl: '',
+image: img11,
+featured: false,
 },
 
 
